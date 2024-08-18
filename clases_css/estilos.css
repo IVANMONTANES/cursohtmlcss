@@ -1,19 +1,31 @@
 *{
-    margin: 0;
     padding: 0;
     border: 0;
+    margin: 0;
 }
-.box{
-    background-color: red;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+
+body{
+    background-color: black;
 }
-.box2{
-    background-color: blue;
-    height: 150px;
-    width: 150px;
-    margin-top: 20px;
-    margin-left: 10px;
+.card{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+h1{
+    padding: 15px;
+}
+h2{
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+p{
+    background-color: brown;
+    padding: 30px 20px ;
+    text-align: justify;
+    color: white;
+    font-family:cursive;
 }
