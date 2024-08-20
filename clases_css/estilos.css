@@ -6,26 +6,12 @@ body{
 
 form{
     background-color: #222;
-    padding: 20px 0;
+    padding: 20px;
     max-width: 500px;
     margin: auto;
     box-shadow: 0 0 60px #0009;
     margin-top: 180px;
     border-radius: 12px;
-}
-
-h2{
-    text-align: center;
-    font-family: sans-serif;
-    margin: 0;
-    margin-bottom: 10px;
-    font-weight: 100;
-    text-transform: uppercase;
-    font-size: 22px;
-    padding: 10px;
-}
-.form_input{
-    padding: 10px 20px;
 }
 
 input,textarea,select{
@@ -39,21 +25,15 @@ input,textarea,select{
     color: #eee;
     margin-top: 10px;
     font-size: 17px;
-}
-option{
-    background-color: #222;
-}
-.boton{
-    width: 25%;
-    margin: auto;
-    border: none;
+    margin: 10px 0;
 }
 
-textarea{
-    min-width: 100%;
-    resize: none;
-    min-height: 70px;
+fieldset{
+    margin: 20px 0;
+    border: 2px solid #6666;
+    border-radius: 5px;
 }
-label{
-    font-size: 1.1em;
+
+legend{
+    padding: 0 5px;
 }
