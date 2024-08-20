@@ -3,52 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Summary and Details</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    
-    <form>
-        <h2>Formulario de contacto</h2>
-        <fieldset>
-            <legend>INFORMACION BASICA</legend>
-        <div class="form_input">
-            <label for="NombreCompleto">Nombre Completo</label>
-            <input type="text" placeholder="Ivan montañes" id="NombreCompleto">
-        </div>
-        <div class="form_input">
-            <label for="Email">Email</label>
-            <input type="email" placeholder="ejemplo@gmail.com" id="Email">
-        </div>
-        <div class="form_input">
-            <label for="Asunto">Asunto</label>
-            <input type="text" placeholder="Asunto" id="Asunto">
-        </div>
-        </fieldset>
-        <div class="form_input">
-            <label for="TipoUsuario">Tipo De Usuario</label>
-            <select name="TipoUsuario" id="TipoUsuario">
-                <option value="administrador">Administrador</option>
-                <option value="programador">Programador</option>
-                <option value="visitante">Visitante</option>
-            </select>
-        </div>
-        <div class="form_input">
-            <label for="">Referente</label>
-            <input list="referente" name="referente">
-            <datalist name="referente" id="referente">
-                <option>Soy dalto</option>
-                <option>Una Empresa</option>
-                <option>Un Amigo</option>
-            </datalist>
-            
-
-        </div>
-        <div class="form_input">
-            <label for="Comentario">Comentario</label>
-            <textarea rows="5" placeholder="Deje Su Comentario Aqui" id="Comentario"></textarea>
-        </div>
-
-    </form>
+    <details>
+        <summary>¿Que tengo que traer?</summary>
+        <ul>
+            <li>Computadora</li>
+            <li>Telefono</li>
+            <li>Documento</li>
+        </ul>
+    </details>
+    <details>
+        <summary>¿Debo Ser Mayor De Edad?</summary>
+            <p>Si, en caso contrario debe estar acompañado por un padre o adulto responsable</p>
+    </details>
 </body>
 </html>
