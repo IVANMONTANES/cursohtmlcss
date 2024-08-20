@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>MINIEJERCICIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="card">
-        <img src="../imagenes/pruebas.jpg" alt="imagen dalto">
-        <h1>LUCAS DALTO</h1>
-        <h2>PROGRAMADOR Y YOUTUBER</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolores culpa nulla nemo aliquid aspernatur ducimus porro reprehenderit dolor beatae similique voluptatum optio tenetur, est eveniet consequatur placeat odio quo?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, tenetur culpa assumenda ipsa aperiam facere doloremque dicta cum omnis aliquam nostrum odio dolores, nam eligendi, ducimus qui quos consectetur quod.</P>
-    </div>
+    
+    <form>
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+            <label for="NombreCompleto">Nombre Completo</label>
+            <input type="text" placeholder="Ivan montañes" id="NombreCompleto">
+        </div>
+        <div class="form_input">
+            <label for="Email">Email</label>
+            <input type="email" placeholder="ejemplo@gmail.com" id="Email">
+        </div>
+        <div class="form_input">
+            <label for="TipoUsuario">Tipo De Usuario</label>
+            <select name="TipoUsuario" id="TipoUsuario">
+                <option value="administrador">Administrador</option>
+                <option value="programador">Programador</option>
+                <option value="visitante">Visitante</option>
+            </select>
+        </div>
+        <div class="form_input">
+            <label for="">Referente</label>
+            <input list="referente" name="referente">
+            <datalist name="referente" id="referente">
+                <option>Soy dalto</option>
+                <option>Una Empresa</option>
+                <option>Un Amigo</option>
+            </datalist>
+            
 
-    <div class="card card2">
-        <img src="../imagenes/pruebas.jpg" alt="imagen dalto">
-        <h1>LUCAS DALTO</h1>
-        <h2>PROGRAMADOR Y YOUTUBER</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolores culpa nulla nemo aliquid aspernatur ducimus porro reprehenderit dolor beatae similique voluptatum optio tenetur, est eveniet consequatur placeat odio quo?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, tenetur culpa assumenda ipsa aperiam facere doloremque dicta cum omnis aliquam nostrum odio dolores, nam eligendi, ducimus qui quos consectetur quod.</P>
-    </div>
+        </div>
+        <div class="form_input">
+            <label for="Comentario">Comentario</label>
+            <textarea rows="5" placeholder="Deje Su Comentario Aqui" id="Comentario"></textarea>
+        </div>
 
-    <div class="card card3">
-        <img src="../imagenes/pruebas.jpg" alt="imagen dalto">
-        <h1>LUCAS DALTO</h1>
-        <h2>PROGRAMADOR Y YOUTUBER</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolores culpa nulla nemo aliquid aspernatur ducimus porro reprehenderit dolor beatae similique voluptatum optio tenetur, est eveniet consequatur placeat odio quo?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, tenetur culpa assumenda ipsa aperiam facere doloremque dicta cum omnis aliquam nostrum odio dolores, nam eligendi, ducimus qui quos consectetur quod.</P>
-    </div>
+    </form>
 </body>
 </html>

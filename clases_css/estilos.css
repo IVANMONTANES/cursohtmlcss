@@ -1,27 +1,59 @@
-.card{
+body{
+    margin: 0;
+    background: #222;
+    color: #eee;
+}
+
+form{
+    background-color: #222;
+    padding: 20px 0;
+    max-width: 500px;
     margin: auto;
-    width: 500px;
-    background: linear-gradient(black,rgb(73, 168, 237));
-    padding: 24px;
+    box-shadow: 0 0 60px #0009;
+    margin-top: 180px;
+    border-radius: 12px;
+}
+
+h2{
     text-align: center;
-    border-radius: 13px;
-    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 10px;
+}
+.form_input{
+    padding: 10px 20px;
+}
+
+input,textarea,select{
+    width: 100%;
     box-sizing: border-box;
+    padding:6px 12px;
+    border: none;
+    border-left: 4px solid #999;
     box-shadow: 0 0 45px #000;
-    margin-top: 30px;
+    background-color: transparent;
+    color: #eee;
+    margin-top: 10px;
+    font-size: 17px;
+}
+option{
+    background-color: #222;
+}
+.boton{
+    width: 25%;
+    margin: auto;
+    border: none;
 }
 
-.card2{
-    background: linear-gradient(black,rgb(226, 95, 51));
+textarea{
+    min-width: 100%;
+    resize: none;
+    min-height: 70px;
 }
-
-.card3{
-    background: linear-gradient(black,rgb(18, 214, 87));
-}
-p{
-    text-align: justify;
-}
-img{
-    width: 250px;
-    border-radius: 50%;
+label{
+    font-size: 1.1em;
 }
