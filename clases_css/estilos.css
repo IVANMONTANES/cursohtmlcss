@@ -6,12 +6,27 @@ body{
 
 form{
     background-color: #222;
-    padding: 20px;
+    padding: 20px 0;
     max-width: 500px;
     margin: auto;
     box-shadow: 0 0 60px #0009;
-    margin-top: 180px;
+    margin-top: 50px;
     border-radius: 12px;
+    box-shadow: 0 0 12px #fff;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 10px;
+}
+.form_input{
+    padding: 10px 20px;
 }
 
 input,textarea,select{
@@ -25,15 +40,30 @@ input,textarea,select{
     color: #eee;
     margin-top: 10px;
     font-size: 17px;
-    margin: 10px 0;
+}
+option{
+    background-color: #222;
+}
+.boton{
+    width: 25%;
+    margin: auto;
+    border: none;
 }
 
+textarea{
+    min-width: 100%;
+    resize: none;
+    min-height: 70px;
+}
+label{
+    font-size: 1.1em;
+}
 fieldset{
-    margin: 20px 0;
-    border: 2px solid #6666;
     border-radius: 5px;
+    border: 2px solid #666;
+    margin: 0 20px;
+    padding-bottom: 20px;
 }
-
 legend{
-    padding: 0 5px;
+    padding: 0 6px;
 }
