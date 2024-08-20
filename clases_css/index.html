@@ -3,56 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENLACES AVANZADOS</title>
+    <title>TABLAS</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    
-    <form>
-        <h2>Formulario de contacto</h2>
-        <fieldset>
-            <legend>INFORMACION BASICA</legend>
-        <div class="form_input">
-            <label for="NombreCompleto">Nombre Completo</label>
-            <input type="text" placeholder="Ivan montañes" id="NombreCompleto">
-        </div>
-        <div class="form_input">
-            <label for="Email">Email</label>
-            <input type="email" placeholder="ejemplo@gmail.com" id="Email">
-        </div>
-        <div class="form_input">
-            <label for="Asunto">Asunto</label>
-            <input type="text" placeholder="Asunto" id="Asunto">
-        </div>
-        </fieldset>
-        <div class="form_input">
-            <label for="TipoUsuario">Tipo De Usuario</label>
-            <select name="TipoUsuario" id="TipoUsuario">
-                <option value="administrador">Administrador</option>
-                <option value="programador">Programador</option>
-                <option value="visitante">Visitante</option>
-            </select>
-        </div>
-        <div class="form_input">
-            <label for="">Referente</label>
-            <input list="referente" name="referente">
-            <datalist name="referente" id="referente">
-                <option>Soy dalto</option>
-                <option>Una Empresa</option>
-                <option>Un Amigo</option>
-            </datalist>
-            
-
-        </div>
-        <div class="form_input">
-            <label for="Comentario">Comentario</label>
-            <textarea rows="5" placeholder="Deje Su Comentario Aqui" id="Comentario"></textarea>
-        </div>
-
-        <div class="form_input">
-            <label>Acepto los <a href="Terms.html" target="_blank">terminos y condiciones</a></label>
-            <input type="checkbox" class="checkbox">
-        </div>
-    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Costo</th>
+                <th>Unidades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Banana</td>
+                <td>$3</td>
+                <td>1KG</td>
+            </tr>
+            <tr>
+                <td>Manzana</td>
+                <td>$2</td>
+                <td>1KG</td>
+            </tr>
+            <tr>
+                <td>Melon</td>
+                <td>$4</td>
+                <td>1 unidad</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>SUBTOTAL</td>
+                <td colspan="2">9$</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
