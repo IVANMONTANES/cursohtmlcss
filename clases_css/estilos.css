@@ -1,0 +1,33 @@
+/*SELECTOR POR ATRIBUTO*/
+img[src="jpg"]{
+    width: 100px;
+}
+
+/*SELECTOR POR HIJO DIRECTO*/
+ul > li{
+    color: red;
+}
+
+/*SELECTOR HERMANOS SIGUIENTES*/
+h1 ~ p{
+    color: blue;
+}
+
+/*SELECTOR HERMANO ADYACENTE*/
+h1 + p{
+    color: red;
+}
+
+/*SELECTOR DESCIENDENTE*/
+h1 span{
+    color: rebeccapurple;
+}
+
+/*SELECTOR MULTIPLE*/
+etiqueta1,etiqueta2{
+    color: aqua;
+}
+
+
+
+
