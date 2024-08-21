@@ -1,33 +1,37 @@
-/*SELECTOR POR ATRIBUTO*/
-img[src="jpg"]{
-    width: 100px;
+.box{
+    width: 800px;
+    height: 800px;
+    background: #f51;
+    margin: 20px;
+}
+.box2{
+    width: 50%; /*400 px*/
+    height: 50%;/*400px*/
+    background: #aaa;
+    margin: auto;
+}
+.box3,.box4{
+    /*HEREDA DEL PADRE*/
+    width: inherit;/*200px*/
+    height: inherit;/*200px*/
+    background: #4f4;
+    margin: auto;
+}
+.box4{
+    background: #04d;
+}
+.caja{
+    color: #f00;
 }
 
-/*SELECTOR POR HIJO DIRECTO*/
-ul > li{
-    color: red;
+p{
+    /*ESTABLECE LA PROPIEDAD POR DEFECTO COMO LA ESTABLECE EL NAVEGADOR*/
+    color: initial;
 }
-
-/*SELECTOR HERMANOS SIGUIENTES*/
-h1 ~ p{
-    color: blue;
+p{
+    /*ESTABLECE LA PROPIEDAD A SU COMPORTAMIENTO POR DEFECTO*/
+    color: unset;
 }
-
-/*SELECTOR HERMANO ADYACENTE*/
-h1 + p{
-    color: red;
-}
-
-/*SELECTOR DESCIENDENTE*/
-h1 span{
-    color: rebeccapurple;
-}
-
-/*SELECTOR MULTIPLE*/
-etiqueta1,etiqueta2{
-    color: aqua;
-}
-
 
 
 
