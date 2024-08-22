@@ -1,29 +1,40 @@
 body{
-    margin: 0;
     padding: 0;
     margin: 0;
-    text-align: center;
+    border: 0;
+    font-family: sans-serif;
+}
+dialog{
+    width: 100%;
+    height: 100%;
+    background-color: #9998;
+    box-sizing: border-box;
 }
 
-.contenedor{
-    border: 3px solid #000;
-    margin: 20px;
+.modal__content{
     position: relative;
-
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 30px;
 }
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: #db7;
-    color: #fff;
-    z-index: 20;
-    
+.modal__text{
+    font-size: 20px;
 }
-.box--blue{
-    background-color: #48e;   
+.modal__button{
+    background-color: #111;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
-.box--red{
-    background-color: #f64;
-
+.modal__button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #000;
 }
 
