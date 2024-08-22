@@ -1,21 +1,45 @@
-.lista{
-    border: 2px solid #000;
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    border: 0;
 }
 
-.lista_item{
-    color: gray;
-    margin: 10px 0;
-    list-style: square;
+.nav{
+    background-color: #48e;
+    font-size: 20px;
+    height: 100%;
+}
+.nav__list{
+    margin: 0;
+    text-align: center;
+}
+.nav__item{
+    display: inline-block;
+    background-color: #48e;
 }
 
-.item--danino{
-    color: red;
+.nav__link:hover{
+    background-color: #59e;
 }
 
-.item--importante{
-    color: blue;
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block
 }
 
-.lista--vieja{
-    opacity: 0.3;
+.link--button{
+    background-color: #fff;
+    padding: 7px 16px;
+    color: #59e;
+    border-radius: 4px;
+    margin-left: 10px;
 }
+.link--button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
