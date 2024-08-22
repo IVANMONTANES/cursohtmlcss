@@ -1,27 +1,21 @@
-body{
-    font-family: sans-serif;
-}
-h1::first-letter{
-    color: red;
-    font-size: 45px;
-    letter-spacing: -5px;
+.lista{
+    border: 2px solid #000;
 }
 
-p::first-line{
+.lista_item{
+    color: gray;
+    margin: 10px 0;
+    list-style: square;
+}
+
+.item--danino{
+    color: red;
+}
+
+.item--importante{
     color: blue;
 }
 
-input::placeholder{
-    color: black;
-    font-size: 15px;
-    padding: 5px;
-    font-family:sans-serif;
+.lista--vieja{
+    opacity: 0.3;
 }
-li::marker{
-    color: red;
-}
-li::before{
-    content: 'Elemento: ';
-    color: red;
-}
-
