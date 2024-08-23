@@ -1,17 +1,14 @@
 body{
     margin: 0;
-    padding: 0;
-    border: 0;
-    background-color: #aaa;
+    font-family: sans-serif;
 }
 
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: #f00;
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    overflow:auto;
+img{
+    padding: 10px;
+    border: 1px solid #000;
+    width: 500px;
+    height: 1000px;
+    object-fit: scale-down;
+    
 }
 
