@@ -1,14 +1,114 @@
-body{
+*{
     margin: 0;
-    font-family: sans-serif;
 }
 
-img{
+.header{
+    background-color: #48e;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__items{
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+}
+
+.header__text__content{
+    max-width: 70%;
+    min-width: 70%;
+    margin: auto;
     padding: 10px;
+    box-sizing: border-box;
     border: 1px solid #000;
-    width: 500px;
-    height: 1000px;
-    object-fit: scale-down;
+    border-radius: 12px;
+    box-shadow: 0 0 40px #000;
+}
+
+.header__items h1{
+    text-align: center;
+    color: #ddd;
+    text-wrap: balance;
+    max-width: 70%;
+    margin: auto;
+}
+
+.header__items p{
+    font-size: 20px;
+    max-width: 70%;
+    margin: auto;
+}
+
+.escudos__container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.escudos__container img{
+    max-width: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    box-shadow: 0 0 40px #000;
+    margin: 20px;
+}
+
+.nav{
+    background-color: #222;
+    position: sticky;
+    top: 0;
+}
+
+.nav__ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav__item{
+    padding: 20px 0;
+}
+.nav__link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 0;
+    color: white;
+}
+
+.nav__link:hover{
+    background-color: #48e;
+    color: black;
+    border-radius: 20px;
+}
+
+.article__container{
+    display: flex;
+    width: 100%;
+}
+
+.article{
+    padding: 10px;
+    width: 100%;
     
 }
 
+.article h2{
+    text-align: center;
+}
+
+.article p{
+    font-size: 18px;
+    text-wrap: pretty;
+}
+
+.article__boca{
+    background: linear-gradient(to bottom,#10fa , yellow );
+    border-right: 5px solid #000;
+}
+
+.article__river{
+    background: linear-gradient(to bottom,#fff,#b01);
+}
